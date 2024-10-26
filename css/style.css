@@ -1,0 +1,62 @@
+/*
+ Theme Name:   Base Divi Child Theme
+ Theme URI:    https://getflywheel.com/divi/
+ Description:  Base Child Theme for Divi
+ Author:       Flywheel
+ Author URI:   https://getflywheel.com/divi/
+ Template:     Divi
+ Version:      1.0.0
+*/
+
+/**To get started add your custom CSS below**/
+
+body {
+	font-weight: 400;
+}
+
+.dd-menu-flex-sub h4 {
+	font-weight: 400;
+}
+
+.et_pb_column_1_3 h1, .et_pb_column_1_4 h1, .et_pb_column_1_5 h1, .et_pb_column_1_6 h1, .et_pb_column_2_5 h1 {
+	font-size: 2.8rem;
+	margin-bottom: 1rem;
+	line-height: 1.3em;
+}
+
+.et_pb_column_1_3 h2, .et_pb_column_1_4 h2, .et_pb_column_1_5 h2, .et_pb_column_1_6 h2, .et_pb_column_2_5 h2, h2 {
+	line-height: 1.3em;
+	margin-bottom: .5rem;
+	font-size: 2.2rem;
+}
+
+
+.et_pb_column_1_3 h6, .et_pb_column_1_4 h6, .et_pb_column_1_5 h6, .et_pb_column_1_6 h6, .et_pb_column_2_5 h6, h6 {
+    font-size: 1.2rem;
+    line-height: 2.8rem;
+    letter-spacing: .24rem;
+    color: #94A5B4;
+    text-transform: uppercase
+}
+
+.et_pb_column_1_3 li, .et_pb_column_1_4 li, .et_pb_column_1_5 li, .et_pb_column_1_6 li, .et_pb_column_2_5 li {
+	padding: 2rem 0em;
+}
+
+.et_pb_button_0_wrapper .et_pb_button_0, .et_pb_button_0_wrapper .et_pb_button_0:hover{
+	padding: 10px 35px;
+}
+
+.et_button_no_icon.et_button_icon_visible.et_button_left .et_pb_button, .et_button_no_icon.et_button_left .et_pb_button:hover, .et_button_no_icon .et_pb_button, .et_button_no_icon .et_pb_button:hover {
+    padding: 10px 35px;
+}
+
+.equal_columns {display: flex; flex-wrap: wrap;}
+.equal_columns > .et_pb_column {margin:auto;}
+
+@media screen and ( max-width: 980px ) {
+    .reverse_columns {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
